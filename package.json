@@ -7,7 +7,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "play": "^0.5.0"
+    "play-sound": "^0.0.9"
   },
   "description": "play a bell for each hours"
 }
