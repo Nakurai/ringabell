@@ -1,0 +1,13 @@
+{
+  "name": "ringabell",
+  "version": "0.1.0",
+  "main": "ringabell.js",
+  "author": {
+    "name": "Christophe Mamessier"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "play": "^0.5.0"
+  },
+  "description": "play a bell for each hours"
+}
