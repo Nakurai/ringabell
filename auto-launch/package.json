@@ -1,0 +1,112 @@
+{
+  "_args": [
+    [
+      "auto-launch",
+      "c:\\Users\\akamaozu\\Dropbox\\Github\\ringabell"
+    ]
+  ],
+  "_from": "auto-launch@latest",
+  "_id": "auto-launch@4.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/auto-launch",
+  "_nodeVersion": "4.0.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/auto-launch-4.0.0.tgz_1472037939522_0.6762229693122208"
+  },
+  "_npmUser": {
+    "email": "contact@adamlynch.ie",
+    "name": "adam-lynch"
+  },
+  "_npmVersion": "2.14.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "auto-launch",
+    "raw": "auto-launch",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/auto-launch/-/auto-launch-4.0.0.tgz",
+  "_shasum": "21b00a9d31fa654d800ec570680e0a8b39770a31",
+  "_shrinkwrap": null,
+  "_spec": "auto-launch",
+  "_where": "c:\\Users\\akamaozu\\Dropbox\\Github\\ringabell",
+  "author": {
+    "name": "Donal Linehan"
+  },
+  "bugs": {
+    "url": "https://github.com/4ver/node-auto-launch/issues"
+  },
+  "contributors": [
+    {
+      "email": "adam@teamwork.com",
+      "name": "Adam Lynch"
+    }
+  ],
+  "dependencies": {
+    "applescript": "^1.0.0",
+    "mkdirp": "^0.5.1",
+    "untildify": "^2.1.0",
+    "winreg": "1.0.1"
+  },
+  "description": "Launch node applications or executables at login (Mac, Windows, and Linux)",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coffee-script": "^1.10.0",
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.2",
+    "gulp-coffeelint": "^0.6.0",
+    "gulp-coffeelint-threshold": "^1.0.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-util": "^3.0.7",
+    "teamwork-coffeelint-rules": "0.0.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "21b00a9d31fa654d800ec570680e0a8b39770a31",
+    "tarball": "https://registry.npmjs.org/auto-launch/-/auto-launch-4.0.0.tgz"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "gitHead": "a88e756120bbed82ebc086ab54fe61c5f3af2cb1",
+  "homepage": "https://github.com/4ver/node-auto-launch",
+  "keywords": [
+    "login",
+    "launch",
+    "node-webkit",
+    "electron",
+    "boot",
+    "login-items"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "maintainers": [
+    {
+      "email": "me@don.al",
+      "name": "4ver"
+    },
+    {
+      "email": "contact@adamlynch.ie",
+      "name": "adam-lynch"
+    }
+  ],
+  "name": "auto-launch",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4ver/node-auto-launch.git"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "version": "4.0.0"
+}
