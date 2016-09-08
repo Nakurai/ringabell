@@ -1,5 +1,5 @@
 "use strict";
-var child_process = require('child_process');
+var player = require('play-sound')();
 
 class RingABell{
 
@@ -7,7 +7,6 @@ class RingABell{
   Define all useful variables for this Class
   */
   constructor() {
-    this.mPlayerPath = __dirname+'\\mplayer\\mplayer.exe';
     this.bellPath = './bells/bell.mp3';
   }
 
@@ -16,7 +15,14 @@ class RingABell{
   */
   ring(nb){
     for(var cpt=0; cpt<nb; cpt++){
-      child_process.execSync(this.mPlayerPath+' '+this.bellPath);
+      player.play(this.bellPath, function(err){
+        if(err){
+          console.log(err);
+        }
+        else{
+          console.log('bell rang!');
+        }
+      });
     }
     return true;
   }
