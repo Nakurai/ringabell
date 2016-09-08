@@ -8,16 +8,22 @@ class App{
   */
   constructor() {
     this.bell = ringabell.ringabell;
-    this.getSecondsBeforeNext();
+    //this.getMinutesBeforeNext();
   }
 
   getMinutesBeforeNext(){
+
     var now = new Date().now();
     now.setHours(now.getHours()+1);
     if(now.getMinutes()>30){
-      var newHour =
+
     }
+    else{
+
+    }
+
     console.log();
+
   }
 
   triggerBell(){
