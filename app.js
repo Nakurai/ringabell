@@ -1,16 +1,12 @@
 "use strict";
-var ringabell = require('./ringabell.js');
+var ringabell = require('./ringabell.js').ringabell;
 
 class App{
   /**
   Define all useful variables for this Class
   */
   constructor() {
-    ringabell = ringabell.ringabell;
     this.currentTime = new Date();
-
-    this.TEST_TIME = 3000;
-    this.HALF_HOUR = 1800000;
     this.HOUR = 3600000;
 
     var next = this.getMinutesBeforeNext(),
@@ -26,7 +22,7 @@ class App{
       setInterval( function(){
 
         ringabell.ring(1);
-      
+
       }, self.HOUR );
 
     }, next.half * 60 * 1000 );
@@ -42,7 +38,7 @@ class App{
       setInterval( function(){
 
         ringabell.ring( getRings() );
-      
+
       }, self.HOUR );
 
     }, next.hour * 60 * 1000 );
@@ -84,9 +80,9 @@ class App{
     else {
 
       next.hour = 60 - current_minute;
-      next.half = next.hour + 30; 
+      next.half = next.hour + 30;
     }
-    
+
     return next;
   }
 
