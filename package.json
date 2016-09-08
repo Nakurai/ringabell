@@ -1,14 +1,26 @@
 {
   "name": "ringabell",
-  "version": "0.1.0",
-  "main": "ringabell.js",
-  "author": {
-    "name": "Christophe Mamessier"
-  },
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Nakurai",
+  "contributors":[
+    {"name":"Uzo Olisemeka"},
+    {"name":"Osazuwa Omigie"}
+  ],
   "license": "MIT",
   "dependencies": {
     "auto-launch": "^4.0.0",
     "play-sound": "^0.0.9"
   },
-  "description": "play a bell for each hours"
+  "scripts":{
+    "start":"node app.js"
+  },
+  "repository":{
+    "type":"git",
+    "url":"https://github.com/Nakurai/ringabell"
+  },
+  "bugs":{
+    "url":"https://github.com/Nakurai/ringabell/issues"
+  },
+  "description": "play a bell for each hour and half hour"
 }
