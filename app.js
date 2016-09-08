@@ -8,23 +8,29 @@ class App{
   */
   constructor() {
     this.bell = ringabell.ringabell;
-    this.getSecondsBeforeNext();
+    this.getMinutesBeforeNext();
   }
 
-  getMinutesBeforeNext(){
+
+  /**
+   * 30 mins once
+   * 1 hour > rings for x time
+   * @return {[type]} [description]
+   */
+  getMinutesBeforeNext() {
     var now = new Date().now();
+    
     now.setHours(now.getHours()+1);
+
     if(now.getMinutes()>30){
-      var newHour =
+
     }
-    console.log();
+    console.log("test");
   }
 
   triggerBell(){
 
   }
-
-
 
 }
 
