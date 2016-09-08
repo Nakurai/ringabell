@@ -9,7 +9,7 @@ Every half-hour, a bell rings once
 
 ### Installation ###
 0. Install nodejs
-1. Download one of the players listed on the play-sound page [play-sound](https://github.com/shime/play-sound) (it is used to play the sound on the computer)
+1. Download one of the players listed on the [play-sound](https://github.com/shime/play-sound) page (it is used to play the sound on the computer)
 2. Add the player to your path
 3. Clone or download this repository and run `npm install`
 
