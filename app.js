@@ -2,8 +2,6 @@
 var ringabell = require('./ringabell.js');
 
 class App{
-  // const TESTTIME = 100000;
-
   /**
   Define all useful variables for this Class
   */
@@ -27,7 +25,7 @@ class App{
   getMinutesBeforeNext() {
     // 30 mins to 1800 000 milleseconds
     // 1 hour 3600 000 milleseconds
-    setTimeout( this.eventHandler, this.TEST_TIME);
+    setTimeout( this.eventHandler.bind(this), this.TEST_TIME);
   }
 
   eventHandler() {
