@@ -33,7 +33,7 @@ class App{
     if (this.currentTime.getMinutes() === 0) {
       n = this.currentTime.getHours();
     }
-
+    this.currentTime = new Date();
     this.triggerBell(n);
   }
 
