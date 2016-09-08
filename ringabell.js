@@ -7,7 +7,7 @@ class RingABell{
   Define all useful variables for this Class
   */
   constructor() {
-    this.bellPath = './bells/bell.mp3';
+    this.bellPath = './bells/bell-short.mp3';
   }
 
   /**
