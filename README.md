@@ -16,3 +16,6 @@ Every half-hour, a bell rings once
 ### Use ###
 To use it once, just run `npm start`.
 To launch the program automatically with your computer, run `node enable-autolaunch`. If you change your mind, run `node disable-autolaunch`.
+
+### WARNING ###
+This implementation is currently working on **windows** only
