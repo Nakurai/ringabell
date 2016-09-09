@@ -10,7 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "auto-launch": "^4.0.0",
-    "play-sound": "^0.0.9"
+    "play-sound": "^0.0.9",
+    "shelljs": "^0.7.4"
   },
   "scripts":{
     "start":"node app.js"
